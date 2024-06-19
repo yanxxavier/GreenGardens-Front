@@ -1,6 +1,9 @@
 export default function initSliderHome() {
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
+    const slider = new Swiper('.swiper', {
+        autoplay: {
+          delay: 5000,
+        },
+
         direction: 'horizontal',
         loop: true,
       

@@ -1,0 +1,33 @@
+#galeria {
+    height: 100vh;
+
+        & h1 {
+            font-size: 3rem;
+            line-height: 3.9rem;
+            font-weight: 900;
+            color:  #3B4623;
+            font-family: "Red Hat Display";
+            align-self: start;
+        }
+        & h1::after {
+            content: "";
+            display: block;
+            width: 120px;
+            height: 4px;
+            background: linear-gradient(to right, #525E36, #91AC56);
+            margin-bottom: 3rem;
+        }
+}
+.galeria_grid {
+    display: grid;
+    column-gap: 35px;
+    height: 364px;
+    grid-template-columns: repeat(3, calc((100% / 3) - 35px));;
+
+        & .galeria_card {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+}

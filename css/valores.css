@@ -1,0 +1,75 @@
+#valores {
+    height: 100vh;
+    position: relative;
+
+    & h1 {
+        font-size: 3rem;
+            line-height: 3.9rem;
+            font-weight: 900;
+            color:  #3B4623;
+            font-family: "Red Hat Display";
+            align-self: start;
+    }
+    & h1::after {
+        content: "";
+        display: block;
+        width: 120px;
+        height: 4px;
+        background: linear-gradient(to right, #525E36, #91AC56);
+        margin-bottom: 3rem;
+    }
+}
+.valores_deco {
+    position: absolute;
+    top: 12%;
+    left: -22%;
+    z-index: 400;
+}
+
+#valores .carrossel {
+        width: 100%;
+        height: 529px;
+        
+      
+}
+#valores .swiper-slide {
+    width: 360px;
+    height: inherit;
+
+    & img {
+    
+        width: 360px;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        border-radius: 10px;
+
+     }
+}
+.overlay_card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 360px;
+    height: 40%;
+    background-color: #242C12;
+    border-radius: 0 0 10px 10px;
+    padding: 2rem;
+
+        & h2 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            font-weight: 900;
+            color: #FFF;
+            font-family: "Red Hat Display", sans-serif;
+            text-align: center;
+        } 
+        & p {
+            font-size: 1.125rem;
+            line-height: 1.325rem;
+            color: #EDEDED;
+            text-align: center;
+            margin: 1rem 0;
+        }
+}
+

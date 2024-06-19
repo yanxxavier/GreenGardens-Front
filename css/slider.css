@@ -1,11 +1,11 @@
 #slider {
     height: 88vh;
 }
-.swiper {
+#slider .swiper {
     width: 100%;
     height: inherit;
 }
-.swiper-slide {
+#slider .swiper-slide {
     position: relative;
 }
 .overlay {
@@ -32,25 +32,25 @@
     color: #FFF;
     
 }
-.swiper img {
+#slider .swiper img {
     width: 100%;
     height: 100%;
     object-fit:cover;
     object-position: bottom;
 }
 
-.swiper-pagination {
+#slider .swiper-pagination {
     --swiper-pagination-bottom: 80px;
     --swiper-pagination-bullet-size: 12px;
     --swiper-pagination-bullet-width: 12px;
     
 }
-.swiper-pagination-bullet-active {
+#slider .swiper-pagination-bullet-active {
     background-color: white;
 }
 
-.swiper-button-prev,
-.swiper-button-next{
+#slider .swiper-button-prev,
+#slider .swiper-button-next{
     --swiper-navigation-size: 40px;
     --swiper-navigation-top-offset: 50%;
     --swiper-navigation-sides-offset: 7%;
