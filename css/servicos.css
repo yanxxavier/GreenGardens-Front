@@ -1,0 +1,14 @@
+#id {
+    height: 100vh;
+}
+.servios {
+    display: flex;
+
+         & h1 {
+            font-size: 3rem;
+            line-height: 3.9rem;
+            font-weight: 900;
+            color:  #525E36;
+            font-family: "Red Hat Display"
+         } 
+}
