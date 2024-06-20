@@ -1,0 +1,12 @@
+footer {
+    margin-top: 5vh;
+    height: 25vh;
+    background-color: #242C12;
+}
+
+.footer_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
