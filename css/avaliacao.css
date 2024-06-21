@@ -19,7 +19,7 @@
     grid-template-columns: 1fr 1fr;
 
         & .avaliacao_img_side {
-            background-image: url(/img/avaliation-img.jpeg);
+            background-image: url(/img/avaliacao/avaliation-img.jpeg);
             background-position: center;
             background-size: cover;
         }
