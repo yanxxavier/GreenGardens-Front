@@ -6,8 +6,8 @@
 
     & .deco_servicos {
         position: absolute;
-        bottom: 10%;
-                left: 5%;
+        bottom: 3%;
+        left: 5%;
     }
 }
 .ebooks_grid {
@@ -70,6 +70,7 @@
             border-radius: 10px;
             border: transparent;
             margin-top: 5rem;
+            cursor: pointer;
 
         } 
 }

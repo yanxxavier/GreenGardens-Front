@@ -112,6 +112,10 @@
         border-radius: 5px;
         border: 1px solid #CCCCCC;
     }
+    & input::placeholder {
+        font-size: 1rem;
+        color: #9C9C9C#9C9C9C;
+    }
 
     & button {
         padding: .9rem 2rem;
