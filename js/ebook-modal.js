@@ -6,14 +6,14 @@ export default function initEbookModal() {
     
     const openModalBtn = document.getElementById('buttonOpenModal');
     openModalBtn.addEventListener('click', () => {
-        modalBox.style.display = 'flex';
+        modalBox.classList.add('active_animation');
         modalForms.style.display = 'block';
     })
     
     //Fechar o modal
     
     function closeModal(modal) { 
-        modal.style.display = 'none';
+        modal.classList.remove('active_animation')
     }
     
     const closeModalBtn = document.getElementById('backModalBtn');
@@ -57,8 +57,8 @@ export default function initEbookModal() {
         
         if(verified) {
             modalForms.style.display = 'none';
-            downloadFinished.style.display = 'flex';
-
+            downloadFinished.classList.add('active_animation')
+            
             Toastify({ //Lib de alert 
                 text: "Sucesso!",
                 duration: 3000,
