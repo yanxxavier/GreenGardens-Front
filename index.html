@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Green Gardens</title>
 </head>
@@ -35,7 +36,7 @@
                         <div class="overlay"></div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/slider-img3.jpeg" alt="Restaurante">
+                        <img src="img/slider-img3.jpg" alt="Restaurante">
                         <div class="overlay"></div>
                     </div>
                     </div>
@@ -318,17 +319,17 @@
                 <div class="modal_side_input">
                     <label for="modalName">
                         Nome <br>
-                        <input type="text" name="modalName" placeholder="Seu nome" required>
+                        <input type="text" name="modalName" placeholder="Seu nome" id="modalName">
                     </label>
                     <label for="modalTelefone">
                         Telefone <br>
-                        <input type="text" name="modalTelefone" placeholder="(xx) xxxxx-xxxxx" required>
+                        <input type="text" name="modalTelefone" placeholder="(xx) xxxxx-xxxxx" id="modalTelefone">
                     </label>
                 </div>
 
                 <label for="modalEmail">
                     Email <br>
-                    <input type="email" name="modalEmail" placeholder="nome@email.com" required>
+                    <input type="email" name="modalEmail" placeholder="nome@email.com" id="modalEmail">
                 </label>
 
                 <div class="modal_buttons">
@@ -339,12 +340,12 @@
 
             <div class="download_finished" id="downloadFinished">
                 <p>O download foi realizado com sucesso, obrigado!</p>
-                <button id="backAfterDowloadBtn">Voltar</button>
+                <button id="CloseDowloadBtn">Voltar</button>
             </div>
         </div>
     </section>
     
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="js/main.js"></script>
 </body>
