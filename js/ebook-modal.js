@@ -67,7 +67,8 @@ export default function initEbookModal() {
                 position: "right", 
                 stopOnFocus: false, 
                 style: {
-                  background: "#242C12",
+                  background: "white",
+                  color: "#242C12"
                 }
             }).showToast();
 

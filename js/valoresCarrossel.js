@@ -15,7 +15,7 @@ export default function initValoresCarrossel() {
         direction: 'horizontal',
         loop: true,
         slidesPerView: 3,
-        spaceBetween: 10,
+        spaceBetween: 20,
         slidesPerGroup: 1,
       
       });

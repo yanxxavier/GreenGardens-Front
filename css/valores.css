@@ -30,11 +30,13 @@
     z-index: 400;
 }
 
-#valores .carrossel {
-        width: 100%;
-        height: 529px;
-        
+#valores .carrossel {   
+    width: 100%;
+    height: 529px;      
       
+}
+#valores .swiper-wrapper {
+    
 }
 #valores .swiper-slide {
     width: 360px;
