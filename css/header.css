@@ -11,19 +11,19 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.nav_links {
+.nav_links_desktop {
     display: flex;
     column-gap: 2rem;
     list-style: none;
 }
-.nav_links a {
+.nav_links_desktop a {
     text-decoration: none;
     color: #FFF;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.18rem;
 }
-.nav_links a::after {
+.nav_links_desktop a::after {
     content: "";
     border-radius: 2px ;
     display: block;
@@ -32,6 +32,28 @@ header {
     background-color: #FFF;
     transition: width .3s;
 }
-.nav_links a:hover::after    {
+.nav_links_desktop a:hover::after    {
     width: 100%;
+}
+.nav_links_mobile {
+    display: none;
+}
+
+/* Responsividade */
+
+@media (max-width: 900px) {
+    .nav_links_desktop {
+        display: none;
+    }
+    .nav_links_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+        list-style: none;
+    }
+    .navbar_logo {
+        width: 34px;
+        height: 37.75pxr;
+    }
 }
