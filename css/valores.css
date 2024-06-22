@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 2rem;
 
     & h1 {
         font-size: 3rem;
@@ -35,9 +36,7 @@
     height: 529px;      
       
 }
-#valores .swiper-wrapper {
-    
-}
+
 #valores .swiper-slide {
     width: 360px;
     height: inherit;
@@ -79,3 +78,51 @@
         }
 }
 
+
+
+/* Responsividade */
+
+@media (max-width: 400px) {
+
+    #valores {
+    
+        & h1 {
+                font-size: 2rem;
+                line-height: 2.5rem;
+        }
+        & h1::after { 
+            width: 80px;
+        }
+    }
+
+    #valores .carrossel {   
+    
+        height: 460px;      
+          
+    }
+
+
+    #valores .swiper-slide {
+        width: 260px;
+        height: inherit;
+
+        & img {    
+            width: 260px;
+         }
+    }
+
+    .overlay_card-text {
+        width: 260px;
+
+            & h2 {
+                font-size: 1.5rem;
+                line-height: 2rem;
+                text-align: center;
+            } 
+            & p {
+                font-size: 1rem;
+                line-height: 1.2rem;
+                margin: .5rem 0;
+            }
+    }
+}
