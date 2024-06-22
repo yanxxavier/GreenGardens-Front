@@ -61,3 +61,10 @@
     color: #0B0E05;
     font-weight: 600;
 }
+
+
+/* Responsividade */
+
+@media (max-width: 900px) {
+    
+}
