@@ -65,6 +65,81 @@
 
 /* Responsividade */
 
-@media (max-width: 900px) {
-    
+@media (max-width: 820px) {
+    .side-a-side_grid {
+      grid-template-columns: .5fr 1fr;  
+    }
+    .left_side img {
+        width: 210px;
+        height: 256px;
+    }
+    .right_side-content p {
+            max-width: 400px;
+            font-size: 1.5rem;
+            line-height: 1.7rem;
+            
+    }
+}
+
+@media (max-width: 500px) {
+    .left_side img {
+        width: 105px;
+        height: 128px;
+    }
+    .right_side-content  {
+
+        & p {
+            color: white;
+            max-width: 200px;
+            font-size: 1rem;
+            line-height: 1.225rem; 
+        }
+        & img {
+            display: none;
+        } 
+    }
+    .home_contact_button {  
+        padding: .7rem 1rem;
+        font-size: .9rem;
+        line-height: 1.125rem;   
+    }
+
+    .right_side {
+        padding-left: 2.5rem;
+    }
+    .deco-home {
+        width: 40px;
+        height: 42px;
+}
+
+@media (max-width: 370px) {
+    .right_side-content  {
+
+        & p {
+            color: white;
+            max-width: 180px;
+            font-size: 1rem;
+            line-height: 1.225rem; 
+            margin: 3rem 0;
+        }
+        & img {
+            display: none;
+        } 
+    }
+    .home_contact_button {  
+        padding: .7rem .9rem;
+        font-size: .7rem;
+        line-height: .9rem;   
+    }
+
+    .right_side {
+        padding-left: 1rem;
+    }
+
+    .deco-home {
+        width: 30px;
+        height: 32px;
+        top: 0;
+        right: 0;
+    }
 }
