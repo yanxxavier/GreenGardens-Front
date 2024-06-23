@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     position: relative;
+    padding: 0 2rem;
 
         & h1 {
             font-size: 3rem;
@@ -39,7 +39,7 @@
     display: grid;
     justify-content: space-between;
     height: 364px;
-    grid-template-columns: repeat(3, calc((100% / 3) - 35px));;
+    grid-template-columns: repeat(3, calc((100% / 3) - 20px));
 
         & .galeria_card {
             width: 100%;
@@ -68,4 +68,86 @@
       text-decoration: underline;
       cursor: pointer;
     }
+}
+@media (max-width: 1000px) {
+  .galeria_grid {
+    height: 250px;
+    grid-template-columns: repeat(2, calc((100% / 2) - 10px));
+
+        & .galeria_card {
+
+            height: 250px; 
+        }
+  }
+  #remove {
+    display: none;
+  }
+
+  #galeria {
+        & h1 {
+            font-size: 2.5rem;
+            line-height: 3.4rem;
+  
+        }
+        & h1::after {
+            content: "";
+            display: block;
+            width: 110px;
+
+          }
+  }
+}
+@media (max-width: 600px) {
+  .galeria_grid {
+    height: 177px;
+    grid-template-columns: repeat(2, calc((100% / 2) - 10px));
+
+        & .galeria_card {
+
+            height: 177px; 
+        }
+  }
+  #remove {
+    display: none;
+  }
+
+  #galeria {
+        & h1 {
+            font-size: 2rem;
+            line-height: 2.9rem;
+  
+        }
+        & h1::after {
+            content: "";
+            display: block;
+            width: 80px;
+
+          }
+  }
+  .button_show_more {
+  
+      & p {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+      }
+
+      & img {
+        width: 30px;
+        height: 25px;
+      }
+  }
+}
+
+
+@media (max-width: 400px) {
+  .galeria_grid {
+    height: 127px;
+    grid-template-columns: repeat(2, calc((100% / 2) - 10px));
+
+        & .galeria_card {
+
+            height: 127px; 
+        }
+  }
+  
 }

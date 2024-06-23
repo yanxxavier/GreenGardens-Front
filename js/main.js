@@ -4,6 +4,6 @@ import initEbookModal from "./ebook-modal.js";
 import initAnimationScroll from "./anima-scroll.js";
 
 initSliderHome();
-initAnimationScroll();
+initAnimationScroll(); 
 initValoresCarrossel();
 initEbookModal();
