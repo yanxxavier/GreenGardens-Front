@@ -336,3 +336,16 @@
         }
     }
 }
+
+@media (max-width: 360px){
+
+    .local_side {
+            & iframe {
+                max-height: 93px;
+                max-width: 106px;
+            }
+    
+    }
+
+    
+}
