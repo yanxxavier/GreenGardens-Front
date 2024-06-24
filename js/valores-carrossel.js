@@ -1,5 +1,5 @@
 export default function initValoresCarrossel() {
-    const carrossel = new Swiper('.carrossel', {
+    const carrosselValores = new Swiper('.carrossel_valores', {
       effect: "coverflow",
       grabCursor: true,
       centeredSlides: false,

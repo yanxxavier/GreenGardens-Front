@@ -31,7 +31,7 @@
     z-index: 400;
 }
 
-#valores .carrossel {   
+#valores .carrossel_valores {   
     width: 100%;
     height: 529px;      
       
@@ -96,7 +96,7 @@
         }
     }
 
-    #valores .carrossel {   
+    #valores .carrossel_valores {   
     
         height: 460px;      
           
