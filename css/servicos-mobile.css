@@ -32,7 +32,7 @@
 }
 .servicos_mobile_card {
     width: 100%;
-    height: 100%;
+    height: 440px;
 
         & img {
             width: 100%;
@@ -64,15 +64,15 @@
      
 }
 .swiper-button-next-servicos {
-    bottom: 63%;
+    top: 45%;
     right: 0;
-    transform: translate(-63%, 63%);
+    transform: translate(-45%, -45%);
     
 }
 .swiper-button-prev-servicos {
-    bottom: 63%;
+    top: 45%;
     left: 3%;
-    transform: translate(-63%, 63%);
+    transform: translate(-45%, -45%);
 }
 
 .swiper-button-next-servicos::after,
@@ -109,9 +109,14 @@
         left: 5%;
         
     }
+    #servicos_mobile .carrossel_servicos {
+        max-height: 402px;
+       
+    }
 
     .servicos_mobile_card {
-    
+        height: 340px;
+
             & img {
                 max-height: 340px;     
             }
@@ -137,25 +142,22 @@
                 margin-bottom: 2.5rem;
             }
     }
-    .swiper-button-next-servicos {
-        bottom: 75%;
-        right: 0;
-        
-    }
-    .swiper-button-prev-servicos {
-        bottom: 75%;
-        left: 7%;  
+    
+
+    #servicos_mobile .carrossel_servicos {
+        max-height: 302px;
+       
     }
 
     .servicos_mobile_card {
-    
-        & img {
-            max-height: 240px;     
-        }
+        height: 240px;
+            & img {
+                max-height: 240px;     
+            }
 
-        & p {
-            font-size: 1rem;
-        }
+            & p {
+                font-size: 1rem;
+            }
 
 }
 }
