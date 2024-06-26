@@ -27,12 +27,13 @@
     align-items: center;
     padding-left: 5rem;
     position: relative;
-    
+    padding: 0 2rem;
         & .deco-home {
             position: absolute;
             top: 10%;
             right: 10%;
         }
+        
 }
 
 .right_side-content {
