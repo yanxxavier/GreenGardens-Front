@@ -137,6 +137,10 @@
         height: 25px;
       }
   }
+  .deco_galeria_top,
+  .deco_galeria_bottom {
+    display: none;
+  }
 }
 
 

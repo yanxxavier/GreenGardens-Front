@@ -63,6 +63,15 @@
         }
 }
 
+@media (max-width: 1300px) {
+    & .deco_home-top {
+        display: none;
+    }
+    & .deco_home-bottom {
+        display: none;
+    }
+}
+
 @media (max-width: 1100px) {
     #servicos {
         display: none;

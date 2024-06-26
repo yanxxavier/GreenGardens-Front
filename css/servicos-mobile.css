@@ -1,42 +1,52 @@
 #servicos_mobile {
-    height: 100vh;
+    height: 100vh; 
     display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden; 
 
+    & h1 {
+        font-size: 3rem;
+        line-height: 3.9rem;
+        font-weight: 900;
+        color: #525E36;
+        font-family: "Red Hat Display";
+        padding: 0 2rem;
+    }
 
-        & h1 {
-            font-size: 3rem;
-            line-height: 3.9rem;
-            font-weight: 900;
-            color:  #525E36;
-            font-family: "Red Hat Display";
-            padding: 0 2rem;
-        } 
-        & h1::after {
-            content: "";
-            display: block;
-            width: 120px;
-            height: 4px;
-            background: linear-gradient(to right, #525E36, #91AC56);
-            margin-bottom: 3rem;
-        }
+    & h1::after {
+        content: "";
+        display: block;
+        width: 120px;
+        height: 4px;
+        background: linear-gradient(to right, #525E36, #91AC56);
+        margin-bottom: 3rem;
+    }
 }
+
 #servicos_mobile .carrossel_servicos {
     width: 100%;
     max-height: 502px;
     height: 100%;
     position: relative;
+    overflow: hidden; 
 
-}
-.servicos_mobile_card {
-    width: 100%;
-    height: 440px;
+    .swiper-wrapper {
+        display: flex; 
+    }
+
+    .swiper-slide {
+        width: 100%; 
+    }
+
+    .servicos_mobile_card {
+        width: 100%;
+        height: 100%; 
+        max-height: 440px;
 
         & img {
             width: 100%;
-            max-height: 440px;
             height: 100%;
             object-fit: cover;
         }
@@ -48,116 +58,105 @@
             margin-top: 1rem;
             padding: 0 2rem;
         }
-
+    }
 }
+
 .swiper-button-next-servicos,
 .swiper-button-prev-servicos {
-        position: absolute;
-        z-index: 1000;
+    position: absolute;
+    z-index: 1000;
+    top: 45%;
+    transform: translateY(-50%); 
 
-            & img {
-                object-fit: cover;
-                width: 20px;
-                height: 32px;
-            }
-        
-     
+    & img {
+        object-fit: cover;
+        width: 20px;
+        height: 32px;
+    }
 }
+
 .swiper-button-next-servicos {
-    top: 45%;
-    right: 0;
-    transform: translate(-45%, -45%);
-    
+    right: 5%;
+    transform: translate(45%, -50%); 
 }
+
 .swiper-button-prev-servicos {
-    top: 45%;
     left: 3%;
-    transform: translate(-45%, -45%);
+    transform: translate(-45%, -50%); 
 }
 
 .swiper-button-next-servicos::after,
 .swiper-button-prev-servicos::after {
-    font-size: 20px; /* Tamanho das setas */
+    font-size: 20px; 
 }
 
 /* Responsividade */
-
 @media (max-width: 1150px) {
     #servicos_mobile {
         display: flex;
     }
-    
 }
 
 @media (max-width: 600px) {
     #servicos_mobile {
-        
-            & h1 {
-                font-size: 2.5rem;
-                line-height: 3rem;
-                
-            } 
-            & h1::after {
-               
-                width: 100px;
-                margin-bottom: 2.5rem;
-            }
-    }
+        & h1 {
+            font-size: 2.5rem;
+            line-height: 3rem;
+        }
 
+        & h1::after {
+            width: 100px;
+            margin-bottom: 2.5rem;
+        }
+    }
 
     .swiper-button-prev-servicos {
         left: 5%;
-        
     }
+
     #servicos_mobile .carrossel_servicos {
         max-height: 402px;
-       
     }
 
     .servicos_mobile_card {
-        height: 340px;
+        max-height: auto; 
 
-            & img {
-                max-height: 340px;     
-            }
-    
-            & p {
-                font-size: 1.25rem;
-            }
-    
+        & img {
+            max-height: 340px; 
+        }
+
+        & p {
+            font-size: 1.25rem;
+        }
     }
 }
 
 @media (max-width: 400px) {
     #servicos_mobile {
-        
-            & h1 {
-                font-size: 2rem;
-                line-height: 2.5rem;
-                
-            } 
-            & h1::after {
-               
-                width: 80px;
-                margin-bottom: 2.5rem;
-            }
+        & h1 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+
+        & h1::after {
+            width: 80px;
+            margin-bottom: 2.5rem;
+        }
     }
-    
 
     #servicos_mobile .carrossel_servicos {
         max-height: 302px;
-       
     }
 
     .servicos_mobile_card {
-        height: 240px;
-            & img {
-                max-height: 240px;     
-            }
+        height: auto; 
 
-            & p {
-                font-size: 1rem;
-            }
+        & img {
+            max-height: 240px; 
+        }
 
-}
+        & p {
+            font-size: 1rem;
+        }
+    }
 }
