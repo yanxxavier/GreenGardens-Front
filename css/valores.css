@@ -6,16 +6,17 @@
     justify-content: center;
     align-items: center;
     padding: 0 2rem;
+    overflow: hidden; 
 
-    & h1 {
+    h1 {
         font-size: 3rem;
-            line-height: 3.9rem;
-            font-weight: 900;
-            color:  #3B4623;
-            font-family: "Red Hat Display";
-            align-self: start;
+        line-height: 3.9rem;
+        font-weight: 900;
+        color: #3B4623;
+        font-family: "Red Hat Display";
+        align-self: start;
     }
-    & h1::after {
+    h1::after {
         content: "";
         display: block;
         width: 120px;
@@ -24,106 +25,105 @@
         margin-bottom: 3rem;
     }
 }
+
 .valores_deco {
     position: absolute;
     top: 12%;
     left: -22%;
     z-index: 400;
+    max-width: 100%; 
 }
 
-#valores .carrossel_valores {   
+#valores .carrossel_valores {
     width: 100%;
-    height: 529px;      
-      
+    height: 529px;
+    overflow: hidden; 
 }
 
 #valores .swiper-slide {
-    width: 360px;
+    width: 100%; 
+    max-width: 360px; 
     height: inherit;
 
-    & img {
-    
-        width: 360px;
+    img {
+        width: 100%;
+        max-width: 360px;
         height: 100%;
         object-fit: cover;
         position: relative;
         border-radius: 10px;
-
-     }
+    }
 }
+
 .overlay_card-text {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 360px;
+    width: 100%; 
+    max-width: 360px; 
     height: 40%;
     background-color: #242C12;
     border-radius: 0 0 10px 10px;
     padding: 2rem;
 
-        & h2 {
-            font-size: 2rem;
-            line-height: 2.5rem;
-            font-weight: 900;
-            color: #FFF;
-            font-family: "Red Hat Display", sans-serif;
-            text-align: center;
-        } 
-        & p {
-            font-size: 1.125rem;
-            line-height: 1.325rem;
-            color: #EDEDED;
-            text-align: center;
-            margin: 1rem 0;
-        }
+    h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: 900;
+        color: #FFF;
+        font-family: "Red Hat Display", sans-serif;
+        text-align: center;
+    }
+    p {
+        font-size: 1.125rem;
+        line-height: 1.325rem;
+        color: #EDEDED;
+        text-align: center;
+        margin: 1rem 0;
+    }
 }
 
-
-
-
 /* Responsividade */
-
 @media (max-width: 450px) {
-
     #valores {
-    
-        & h1 {
-                font-size: 2rem;
-                line-height: 2.5rem;
+        h1 {
+            font-size: 2rem;
+            line-height: 2.5rem;
         }
-        & h1::after { 
+        h1::after { 
             width: 80px;
         }
     }
 
     #valores .carrossel_valores {   
-    
         height: 460px;      
-          
     }
 
-
     #valores .swiper-slide {
-        width: 260px;
+        width: 100%; 
+        max-width: 280px; 
         height: inherit;
 
-        & img {    
-            width: 260px;
-         }
+        img {
+            width: 100%;
+            max-width: 280px; 
+        }
     }
 
     .overlay_card-text {
-        width: 260px;
+        width: 100%; 
+        max-width: 280px; 
+        padding: .5rem;
 
-            & h2 {
-                font-size: 1.5rem;
-                line-height: 2rem;
-                text-align: center;
-            } 
-            & p {
-                font-size: 1rem;
-                line-height: 1.2rem;
-                margin: .5rem 0;
-            }
+        h2 {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            text-align: center;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.2rem;
+            margin: .5rem 0;
+        }
     }
 }
