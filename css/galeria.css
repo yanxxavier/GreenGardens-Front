@@ -27,13 +27,13 @@
 
         & .deco_galeria_top {
           position: absolute;
-          top: 10%;
-          left: -22%;
+          top: 0;
+          left: -5%;
         }
         & .deco_galeria_bottom {
           position: absolute;
-          bottom: 5%;
-          right: -22%;
+          bottom: 0;
+          right: -5%;
         }
 }
 .galeria_grid {
@@ -70,6 +70,15 @@
       cursor: pointer;
     }
 }
+
+@media (max-width: 1330px) {
+  .deco_galeria_top {
+    display: none;
+  }
+  .deco_galeria_bottom {
+    display: none;
+  }
+}
 @media (max-width: 1000px) {
   .galeria_grid {
     height: 250px;
@@ -81,12 +90,6 @@
         }
   }
   #remove {
-    display: none;
-  }
-  .deco_galeria_top {
-    display: none;
-  }
-  .deco_galeria_bottom {
     display: none;
   }
 

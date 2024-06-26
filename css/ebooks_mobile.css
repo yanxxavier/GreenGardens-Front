@@ -82,6 +82,7 @@
     grid-row: 2;
     grid-column: 1;
     max-width: 175px;
+    max-height: 35px;
     color: #000;
 
     text-transform: uppercase;
@@ -128,7 +129,6 @@
         padding: .438rem .538rem;   
         border-radius: 5px;
         font-size: .625rem;
-        max-height: 35px;
         max-width: 132px;
        
     

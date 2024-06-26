@@ -27,7 +27,7 @@
         & .deco_contato {
             position: absolute;
             bottom: 10%;
-            right: 0;
+            right: 4%   ;
         }
 }
 
@@ -149,13 +149,16 @@
 
 /* responsividade */ 
 
+@media (max-width: 1400px) {
+    .deco_contato {
+        display: none;
+    }
+}
+
 @media (max-width: 1300px){
 
     .form_contato {
         padding: 2rem;
-    }
-    .deco_contato {
-        display: none;
     }
 }
 @media (max-width: 950px){
@@ -198,9 +201,7 @@
         column-gap: 2rem;
             
     }
-    .deco_contato {
-        display: none;
-    }
+   
     .form_contato {
         padding: 2rem;
         row-gap: 1.5rem;
