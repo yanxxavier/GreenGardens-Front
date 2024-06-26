@@ -4,11 +4,14 @@ export default function initEbookModal() {
     
     //Abrir o modal
     
-    const openModalBtn = document.getElementById('buttonOpenModal');
-    openModalBtn.addEventListener('click', () => {
-        modalBox.classList.add('active_animation');
-        modalForms.style.display = 'block';
+    const openModalBtns = document.querySelectorAll('[data-buttonModal]');
+    openModalBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+            modalBox.classList.add('active_animation');
+            modalForms.style.display = 'block';
+        })
     })
+    
     
     //Fechar o modal
     

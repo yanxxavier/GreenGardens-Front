@@ -222,7 +222,7 @@
             & h1::after {
              
                 width: 100px;
-                margin-bottom: 1.5rem;
+                margin-bottom: 1rem;
             }
     
             
@@ -334,7 +334,7 @@
         }
 
         & textarea {
-            max-height: 110px;
+            max-height: 85px;
         }
     }
 }

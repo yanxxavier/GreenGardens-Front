@@ -100,9 +100,9 @@
         } 
     }
     .home_contact_button {  
-        padding: .7rem 1rem;
-        font-size: .9rem;
-        line-height: 1.125rem;   
+        padding: .438rem .538rem;  
+        font-size: .625rem;
+        border-radius: 5px;  
     }
 
     .right_side {
@@ -128,11 +128,7 @@
             display: none;
         } 
     }
-    .home_contact_button {  
-        padding: .7rem .9rem;
-        font-size: .7rem;
-        line-height: .9rem;   
-    }
+    
 
     .right_side {
         padding-left: 1rem;
