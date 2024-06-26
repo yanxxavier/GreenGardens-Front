@@ -83,6 +83,12 @@
   #remove {
     display: none;
   }
+  .deco_galeria_top {
+    display: none;
+  }
+  .deco_galeria_bottom {
+    display: none;
+  }
 
   #galeria {
         & h1 {
