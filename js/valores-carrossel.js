@@ -31,7 +31,7 @@ export default function initValoresCarrossel() {
       }
     },
     slidesPerView: 3,
-    spaceBetween: 20,
+    spaceBetween: 50,
     slidesPerGroup: 1,
   });
 }
