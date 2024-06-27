@@ -97,13 +97,16 @@
         display: block;
     }
 }
-
-@media (max-width: 450px) {
-    #ebooks_mobile {
+@media(max-width: 600px) {
+     #ebooks_mobile {
         height: 40vh;
-        margin: 0 0;
+        margin: 15vh 0;
       
     }
+}
+
+@media (max-width: 450px) {
+   
 
      .ebooks_mobile_text {
         font-size: .75rem;
