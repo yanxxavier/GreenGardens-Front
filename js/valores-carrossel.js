@@ -12,26 +12,26 @@ export default function initValoresCarrossel() {
     },
     loop: true, // Mantém o loop
     breakpoints: {
-      1000: {
-        slidesPerView: 2.5,
-        spaceBetween: 12,
+      900: {
+        slidesPerView: 2.3,
+        spaceBetween: 30,
       },
       800: {
-        slidesPerView: 2,
-        spaceBetween: 12,
+        slidesPerView: 1.28,
+        spaceBetween: 30,
       },
       600: {
-        slidesPerView: 1.5,
-        spaceBetween: 12.
+        slidesPerView: 1.28,
+        spaceBetween: 15,
       },
-      
+      450: {
+        slidesPerView: 1.28,
+        spaceBetween: 15,
+      },
       300: {
-        slidesPerView: 1.3,
-        spaceBetween: 12,
-      }
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
     },
-    slidesPerView: 3,
-    spaceBetween: 50,
-    slidesPerGroup: 1,
   });
 }
