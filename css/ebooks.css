@@ -37,8 +37,6 @@
 
         & h1 {
             align-self: start;
-            font-size: 3rem;
-            line-height: 3.9rem;
             font-weight: 900;
             color: #CCC;
             font-family: "Red Hat Display", sans-serif;
@@ -46,8 +44,6 @@
         & h1::after {
             content: "";
             display: block;
-            width: 120px;
-            height: 4px;
             background: linear-gradient(to right, #525E36, #91AC56);
             margin-bottom: 3rem;
         }

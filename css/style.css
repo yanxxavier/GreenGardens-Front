@@ -41,6 +41,39 @@ body {
     overflow-x: hidden;
 }
 
+/*Padronização do h1*/
+
+.section_title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.section_title::after {
+    width: 120px;
+    height: 4px;  
+}
+
+@media(max-width: 800px) {
+    .section_title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .section_title::after {
+        width: 100px;
+        
+    }
+    
+}
+
+@media(max-width: 450px) {
+    .section_title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .section_title::after {
+        width: 80px;
+        
+    }
+}
 
 
 /*CSS da animação do scroll*/

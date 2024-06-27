@@ -7,12 +7,12 @@
         & .deco_home-top {
             position: absolute;
             top: 12%;
-            right: 15%;
+            right: 2.5%;
         }
         & .deco_home-bottom {
             position: absolute;
             bottom: 12%;
-            left: 15%;
+            left: 1%;
         }
 }
 .servicos {
@@ -20,8 +20,6 @@
     flex-direction: column;
     padding: 0 2rem;
          & h1 {
-            font-size: 3rem;
-            line-height: 3.9rem;
             font-weight: 900;
             color:  #525E36;
             font-family: "Red Hat Display"
@@ -29,8 +27,6 @@
          & h1::after {
             content: "";
             display: block;
-            width: 120px;
-            height: 4px;
             background: linear-gradient(to right, #525E36, #91AC56);
             margin-bottom: 3rem;
         }
@@ -72,7 +68,7 @@
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     #servicos {
         display: none;
     }

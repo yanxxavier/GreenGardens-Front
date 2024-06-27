@@ -9,8 +9,6 @@
     overflow: hidden; 
 
     h1 {
-        font-size: 3rem;
-        line-height: 3.9rem;
         font-weight: 900;
         color: #3B4623;
         font-family: "Red Hat Display";
@@ -19,8 +17,6 @@
     h1::after {
         content: "";
         display: block;
-        width: 120px;
-        height: 4px;
         background: linear-gradient(to right, #525E36, #91AC56);
         margin-bottom: 3rem;
     }
@@ -85,15 +81,6 @@
 
 /* Responsividade */
 @media (max-width: 450px) {
-    #valores {
-        h1 {
-            font-size: 2rem;
-            line-height: 2.5rem;
-        }
-        h1::after { 
-            width: 80px;
-        }
-    }
 
     #valores .carrossel_valores {   
         height: 460px;      

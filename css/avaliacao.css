@@ -116,6 +116,13 @@
         }
     }
 }
+@media (max-width: 600px) {
+    #avaliacao {
+        height: 60vh;
+        margin: 0vh 0;
+       
+    }
+}
 
 
 @media (max-width: 500px) {

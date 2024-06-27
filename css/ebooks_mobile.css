@@ -15,8 +15,6 @@
 
    & h1 {
         align-self: start;
-        font-size: 3rem;
-        line-height: 3.9rem;
         font-weight: 900;
         color: #CCC;
         font-family: "Red Hat Display", sans-serif;
@@ -26,8 +24,6 @@
     & h1::after {
         content: "";
         display: block;
-        width: 120px;
-        height: 4px;
         background: linear-gradient(to right, #525E36, #91AC56);
         margin-bottom: 2rem;
     }
@@ -104,15 +100,10 @@
 
 @media (max-width: 450px) {
     #ebooks_mobile {
-        & h1 {
-             font-size: 2rem;
-             line-height: 2.5rem;
-         }
-         & h1::after {
-             width: 80px;  
-            
-         }
-     }
+        height: 40vh;
+        margin: 0 0;
+      
+    }
 
      .ebooks_mobile_text {
         font-size: .75rem;
@@ -142,11 +133,6 @@
 }
 
 @media (max-width: 380px) {
-    #ebooks_mobile {
-        height: 50vh;
-        margin: 25vh 0;
-      
-    }
     .ebooks_mobile_img {
         max-width: 145px; 
         max-height: 208px;

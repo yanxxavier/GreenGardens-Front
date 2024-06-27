@@ -7,8 +7,6 @@
     overflow-x: hidden; 
 
     & h1 {
-        font-size: 3rem;
-        line-height: 3.9rem;
         font-weight: 900;
         color: #525E36;
         font-family: "Red Hat Display";
@@ -18,8 +16,6 @@
     & h1::after {
         content: "";
         display: block;
-        width: 120px;
-        height: 4px;
         background: linear-gradient(to right, #525E36, #91AC56);
         margin-bottom: 3rem;
     }
@@ -91,7 +87,7 @@
 }
 
 /* Responsividade */
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
     #servicos_mobile {
         display: flex;
     }
@@ -99,15 +95,7 @@
 
 @media (max-width: 600px) {
     #servicos_mobile {
-        & h1 {
-            font-size: 2.5rem;
-            line-height: 3rem;
-        }
-
-        & h1::after {
-            width: 100px;
-            margin-bottom: 2.5rem;
-        }
+        height: 75vh; 
     }
 
     .swiper-button-prev-servicos {
@@ -132,17 +120,6 @@
 }
 
 @media (max-width: 400px) {
-    #servicos_mobile {
-        & h1 {
-            font-size: 2rem;
-            line-height: 2.5rem;
-        }
-
-        & h1::after {
-            width: 80px;
-            margin-bottom: 2.5rem;
-        }
-    }
 
     #servicos_mobile .carrossel_servicos {
         max-height: 302px;
