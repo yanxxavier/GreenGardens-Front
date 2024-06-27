@@ -92,11 +92,7 @@
 
 }
 @media (max-width: 600px) {
-  #galeria {
-    height: 75vh;
-    margin-bottom: 0vh;
-
-  }
+  
   .galeria_grid {
     height: 177px;
     grid-template-columns: repeat(2, calc((100% / 2) - 10px));

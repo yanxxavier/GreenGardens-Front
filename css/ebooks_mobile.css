@@ -100,9 +100,15 @@
 @media(max-width: 600px) {
      #ebooks_mobile {
         height: 40vh;
-        margin: 15vh 0;
       
     }
+    
+    .deco_ebooks_mobile {
+        width: 20px;
+        height: 20px;
+
+    }
+    
 }
 
 @media (max-width: 450px) {

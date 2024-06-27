@@ -260,9 +260,7 @@
     }
 }
 @media (max-width: 600px) {
-    #contato {
-        min-height: 75vh;
-    }
+   
 }
 
 @media (max-width: 560px){

@@ -94,9 +94,6 @@
 }
 
 @media (max-width: 600px) {
-    #servicos_mobile {
-        height: 75vh; 
-    }
 
     .swiper-button-prev-servicos {
         left: 5%;
