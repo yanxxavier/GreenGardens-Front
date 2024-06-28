@@ -22,10 +22,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,900;1,900&display=swap');
 
 /*Formatações básicas do site*/
-html {
-    scroll-behavior: smooth;
-    
-}
 * {
     margin: 0;
     padding: 0;

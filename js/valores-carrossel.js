@@ -12,8 +12,12 @@ export default function initValoresCarrossel() {
     },
     loop: true, // Mantém o loop
     breakpoints: {
+      1100: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
       900: {
-        slidesPerView: 2.3,
+        slidesPerView: 2.5,
         spaceBetween: 30,
       },
       800: {
