@@ -1,6 +1,6 @@
 export default function initAnimationScroll() {
     const sections = document.querySelectorAll('[data-anima="scroll"]');
-    const windowHeight = window.innerHeight * 0.6; //60% da altura da janela
+    const windowHeight = window.innerHeight * 0.8; //80% da altura da janela
 
     if(sections.length > 0) { //Verica se existe seções para adicionar a animação
         function scrollAnimation() {
