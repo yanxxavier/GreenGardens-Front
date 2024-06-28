@@ -1,7 +1,7 @@
 #ebooks_mobile {
    background-color: #242C12; 
    height: 60vh;
-   margin: 20vh 0;
+   
    display: none;
    position: relative;
 
@@ -98,10 +98,7 @@
     }
 }
 @media(max-width: 600px) {
-     #ebooks_mobile {
-        height: 40vh;
-      
-    }
+   
     
     .deco_ebooks_mobile {
         width: 20px;
@@ -112,8 +109,10 @@
 }
 
 @media (max-width: 450px) {
-   
+    #ebooks_mobile {
+        height: 50vh;
 
+    }
      .ebooks_mobile_text {
         font-size: .75rem;
         line-height: .9rem;

@@ -77,6 +77,10 @@
 /* Responsividade */ 
 
 @media (max-width: 920px) {
+    #avaliacao {
+        height: 60vh;
+        margin: 0 0;
+    }
     .avaliacao_grid {
         grid-template-columns: 1fr .5fr;
       

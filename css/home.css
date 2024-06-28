@@ -83,6 +83,12 @@
 }
 
 @media (max-width: 500px) {
+    .side-a-side_grid {
+        height: 50vh;  
+      }
+    #home {
+        margin-top: 5vh;
+    }
     .left_side img {
         width: 105px;
         height: 128px;

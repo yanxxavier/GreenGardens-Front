@@ -1,6 +1,5 @@
 #galeria {
     height: 70vh;
-    margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,6 +120,11 @@
   .deco_galeria_top,
   .deco_galeria_bottom {
     display: none;
+  }
+}
+@media (max-width: 520px) {
+  #galeria {
+    height: 50vh;
   }
 }
 

@@ -17,16 +17,16 @@ export default function initValoresCarrossel() {
         spaceBetween: 30,
       },
       800: {
-        slidesPerView: 1.28,
+        slidesPerView: 1.5,
         spaceBetween: 30,
       },
       600: {
-        slidesPerView: 1.28,
-        spaceBetween: 15,
+        slidesPerView: 1.3,
+        spaceBetween: 10,
       },
       450: {
-        slidesPerView: 1.28,
-        spaceBetween: 15,
+        slidesPerView: 1.2,
+        spaceBetween: 10,
       },
       300: {
         slidesPerView: 1,

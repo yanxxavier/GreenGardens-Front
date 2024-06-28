@@ -82,6 +82,10 @@
 
 
 @media (max-width: 900px) {
+    #valores {
+        height: 85vh;
+       
+    }
     #valores .carrossel_valores {
         height: 320px;
         
@@ -127,6 +131,10 @@
 
 }
 @media (max-width: 520px) {
+    #valores {
+        height: 55vh;
+       
+    }
     #valores .carrossel_valores {
         height: 160px;
         

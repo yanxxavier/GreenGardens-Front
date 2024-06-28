@@ -12,9 +12,7 @@ export default function initAnimationScroll() {
                 if(isSectionVisible) { 
                     section.classList.add("active_animation_scroll"); // Animação na descida da página
                 }  
-                else {
-                    section.classList.remove("active_animation_scroll"); // Animação na subida da página
-                }
+                
             })
         }
         scrollAnimation()
