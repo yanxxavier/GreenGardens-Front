@@ -22,7 +22,7 @@ git clone https://github.com/yanxxavier/GreenGardens-Front.git
 ## 👷 Autores
 
 * **Yan Xavier** - *Frontend* - [@yanxxavier](https://github.com/yanxxavier)
-* **Beatriz** - *UI/UX* - [@beatriz](https://github.com/link_do_Perfil)
+* **Beatriz** - *UI/UX* - [@beatriz](https://br.linkedin.com/in/beatriz-xavier-339232287)
 
 
 ## ⚙ Suporte
