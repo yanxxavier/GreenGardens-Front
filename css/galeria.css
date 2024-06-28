@@ -27,7 +27,7 @@
         }
         & .deco_galeria_bottom {
           position: absolute;
-          bottom: 0;
+          bottom: 5%;
           right: -5%;
         }
 }
