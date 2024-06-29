@@ -142,11 +142,11 @@
     
     #valores .swiper-slide {
        
-        max-width: 300px; 
+        max-width: 100%; 
  
         img {
 
-            max-width: 300px;      
+            max-width: 100%;      
         }
     }
 
