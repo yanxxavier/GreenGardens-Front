@@ -34,4 +34,4 @@ git clone https://github.com/yanxxavier/GreenGardens-Front.git
 ## ⚙ Suporte
 
 * Para suporte, mande um email para yanxavierlindolfo@gmail.com
-* Meu linkedin [Meu linkedin](https://www.linkedin.com/feed/)
+* Meu linkedin [Meu linkedin](https://www.linkedin.com/in/yan-xavier-2289092b6/)
